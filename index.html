@@ -4,148 +4,150 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy — Klipcy</title>
-  <meta name="description" content="Privacy Policy for the Klipcy Shopify app." />
+  <meta name="description" content="Privacy Policy for the Klipcy Shopify app and Klipcy Mobile App." />
   <style>
-    :root {
-      --primary: #000000;
-      --text: #000000;
-      --muted: #4d4d4d;
-      --border: #cccccc;
-      --bg: #f5f5f5;
-    }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: var(--text);
-      background: var(--bg);
-      line-height: 1.65;
+      background: #ffffff;
+      color: #111111;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 17px;
+      line-height: 1.7;
     }
     .container {
-      max-width: 820px;
+      max-width: 860px;
       margin: 0 auto;
-      padding: 48px 24px 80px;
-      background: #fff;
+      padding: 56px 24px 72px;
     }
-    header {
-      border-bottom: 3px solid var(--primary);
-      padding-bottom: 20px;
-      margin-bottom: 32px;
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin: 0 0 6px;
     }
-    h1 { font-size: 2rem; margin: 0 0 6px; }
     h2 {
-      font-size: 1.25rem;
-      margin-top: 36px;
-      color: var(--primary);
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 6px;
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin: 40px 0 10px;
     }
-    .updated { color: var(--muted); font-size: 0.9rem; }
-    p, li { color: var(--text); }
-    ul { padding-left: 22px; }
-    a { color: var(--primary); }
-    .note {
-      background: var(--bg);
-      border-left: 4px solid var(--primary);
-      padding: 12px 16px;
-      border-radius: 4px;
-      margin: 16px 0;
+    .updated {
+      margin: 0 0 28px;
+      font-weight: 700;
+    }
+    p { margin: 0 0 16px; }
+    ul, ol { margin: 0 0 16px; padding-left: 28px; }
+    li { margin-bottom: 8px; }
+    a { color: #111111; text-decoration: underline; }
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.92em;
     }
     footer {
-      margin-top: 48px;
-      padding-top: 20px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.875rem;
+      margin-top: 56px;
+      padding-top: 18px;
+      border-top: 1px solid #dddddd;
+      font-size: 0.9rem;
+      color: #555555;
+    }
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .container { padding: 36px 18px 56px; }
+      h1 { font-size: 1.8rem; }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>Privacy Policy</h1>
-      <p class="updated">Klipcy &middot; Last updated: September 24, 2026</p>
-    </header>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: October 7, 2026</p>
 
     <p>
-      This Privacy Policy describes how <strong>Klipcy</strong> (&ldquo;we&rdquo;, &ldquo;us&rdquo;)
-      collects, uses, and protects information across both parts of the Klipcy product: the
-      <strong>Klipcy Shopify app</strong> (&ldquo;the Shopify App&rdquo;), which a merchant installs and uses
-      on their Shopify store, and the <strong>Klipcy Mobile App</strong>, which lets a store&rsquo;s registered
-      owner log in and view that store&rsquo;s orders, receipts, and invoices on their phone. By installing or
-      using either, you agree to the practices described below.
+      This Privacy Policy explains how <strong>Klipcy</strong> (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or
+      &ldquo;our&rdquo;) collects, uses, and protects information when you use the
+      <strong>Klipcy Shopify app</strong> (the &ldquo;Shopify App&rdquo;) and the
+      <strong>Klipcy Mobile App</strong> (together, the &ldquo;App&rdquo;). Klipcy helps Shopify merchants
+      generate, customize, and manage invoices for their store&rsquo;s orders. The Shopify App is installed
+      and used inside the Shopify Admin, and the Mobile App is a companion Android/iOS app that lets a
+      store&rsquo;s registered owner view that store&rsquo;s orders, receipts, and invoices on their phone.
+      By installing or using the App, you agree to the practices described in this Privacy Policy.
     </p>
 
-    <h2>1. Who We Are</h2>
+    <h2>Information We Collect</h2>
     <p>
-      Klipcy is a Shopify application that helps merchants generate, customize, and manage invoices for their
-      store&rsquo;s orders. The Shopify App is embedded within the Shopify Admin and operates using data made
-      available through the Shopify APIs. The Klipcy Mobile App is a companion Android/iOS app that lets the
-      store owner view that same order and invoice data on their phone.
+      We collect only the information needed to operate the App. Depending on how you use it, this may
+      include the following:
     </p>
+    <ol>
+      <li><strong>Store information:</strong> your store domain, store name, email address, currency,
+        timezone, and basic store configuration, obtained through the Shopify APIs.</li>
+      <li><strong>Order information:</strong> order numbers, line items, totals, taxes, discounts, shipping
+        details, and fulfillment status.</li>
+      <li><strong>Customer information (Protected Customer Data):</strong> your customers&rsquo; names, email
+        addresses, phone numbers, and billing and shipping addresses, as contained in your orders.</li>
+      <li><strong>App data:</strong> the invoice templates, branding settings, and invoices you create
+        within the App.</li>
+      <li><strong>Owner login information (Mobile App):</strong> the store domain and owner email address you
+        enter at login, used solely to verify that you are the store&rsquo;s registered owner, and a one-time
+        login code sent to that email. The Mobile App does not use passwords. The code is stored
+        temporarily on our servers in a hashed (non-reversible) form and automatically expires after
+        5 minutes.</li>
+      <li><strong>Push notification token (Mobile App):</strong> if you allow notifications, a device push
+        token provided by Expo, our push notification service. It identifies your device for notification
+        delivery only and is removed from our systems when you log out of the Mobile App.</li>
+    </ol>
 
-    <h2>2. Information We Collect</h2>
-    <p>When you install and use Klipcy, we may access and process the following information:</p>
+    <h2>How We Use Information We Collect</h2>
+    <p>We use the information we collect only to provide and secure the App, specifically to:</p>
     <ul>
-      <li><strong>Store information:</strong> your store domain, store name, email, currency, timezone, and basic configuration.</li>
-      <li><strong>Order information:</strong> order numbers, line items, totals, taxes, discounts, shipping, and fulfillment status.</li>
-      <li><strong>Customer information (Protected Customer Data):</strong> customer name, email address, phone number, and billing/shipping addresses, as contained in your orders.</li>
-      <li><strong>App data:</strong> invoice templates, branding, and generated invoices you create within the App.</li>
+      <li>generate, format, and manage invoices for your orders;</li>
+      <li>store and apply your invoice templates and branding settings;</li>
+      <li>authenticate your store and keep your session secure;</li>
+      <li>deliver invoices (for example, by email) when you request it;</li>
+      <li>verify that the person logging into the Mobile App is the store&rsquo;s registered owner and send
+        them a one-time login code; and</li>
+      <li>send the store owner a push notification when an order is created or its status changes, if
+        notifications are enabled in the Mobile App.</li>
     </ul>
-    <p>We only access this data to provide the App&rsquo;s core functionality.</p>
-
-    <p>When a store owner uses the <strong>Klipcy Mobile App</strong>, we additionally collect:</p>
-    <ul>
-      <li><strong>Owner login information:</strong> the store domain and owner email address entered at login,
-          used solely to verify that the person logging in is the store&rsquo;s registered owner, and a
-          one-time login code sent to that email. The Mobile App does not use passwords. This code is stored
-          temporarily on our servers in a hashed (non-reversible) form and automatically expires after 5
-          minutes, after which it can no longer be used.</li>
-      <li><strong>Push notification token:</strong> if the owner allows notifications, a device push token
-          (provided by Expo, our push notification service) so we can alert them when an order is created or
-          its status changes. This token identifies the device for notification delivery only, and is removed
-          from our systems when the owner logs out of the Mobile App.</li>
-    </ul>
-
-    <h2>3. How We Use Information</h2>
-    <ul>
-      <li>To generate, format, and manage invoices for your orders.</li>
-      <li>To store and apply your invoice templates and branding settings.</li>
-      <li>To authenticate your store and keep your session secure.</li>
-      <li>To deliver invoices (for example, by email) when you request it.</li>
-      <li>To verify that the person logging into the Mobile App is the store&rsquo;s registered owner, and to
-          send them a one-time login code.</li>
-      <li>To send the store owner a push notification when an order is created or its status changes, if
-          they&rsquo;ve enabled notifications in the Mobile App.</li>
-    </ul>
-    <p>We do <strong>not</strong> sell, rent, or share your data or your customers&rsquo; data for advertising or marketing purposes.</p>
-
-    <h2>4. Data Storage and Security</h2>
     <p>
-      Data is stored in a managed PostgreSQL database (hosted by Supabase) and the App is hosted on Vercel.
-      All data is transmitted over encrypted connections (HTTPS/TLS) and stored on infrastructure that employs
-      encryption at rest. Access to data is restricted to the App&rsquo;s operation and protected by access keys.
+      We do <strong>not</strong> sell, rent, or share your data or your customers&rsquo; data for advertising
+      or marketing purposes.
     </p>
 
-    <h2>5. Data Sharing and Third Parties</h2>
-    <p>We share data only with the service providers necessary to operate the App:</p>
+    <h2>Third Party Websites</h2>
+    <p>
+      The App may display links to websites or services that we do not own or operate, such as Shopify.
+      We are not responsible for the content or privacy practices of those third-party websites, and this
+      Privacy Policy does not apply to them. We encourage you to review the privacy policy of any website
+      you visit.
+    </p>
+
+    <h2>Cookies &amp; Logs</h2>
+    <p>
+      The Shopify App uses only the cookies and session tokens required to authenticate your store and keep
+      you securely signed in while you use the App. We do not use tracking or advertising cookies. Our
+      hosting infrastructure may keep standard technical logs (such as request time and error information)
+      for the purpose of operating, securing, and troubleshooting the App.
+    </p>
+
+    <h2>Disclosure of User Information to Third Parties</h2>
+    <p>
+      We share information only with the service providers necessary to operate the App:
+    </p>
     <ul>
-      <li><strong>Shopify</strong> &mdash; the platform the App runs on and the source of store/order data.</li>
-      <li><strong>Supabase</strong> &mdash; database hosting.</li>
+      <li><strong>Shopify</strong> &mdash; the platform the App runs on and the source of store and order data.</li>
+      <li><strong>Supabase</strong> &mdash; managed database hosting.</li>
       <li><strong>Vercel</strong> &mdash; application hosting.</li>
-      <li><strong>Expo</strong> &mdash; delivers push notifications to the Klipcy Mobile App.</li>
+      <li><strong>Expo</strong> &mdash; delivery of push notifications to the Klipcy Mobile App.</li>
     </ul>
-    <p>These providers process data solely to provide their services and are bound by their own privacy and security commitments.</p>
-
-    <h2>6. Data Retention</h2>
     <p>
-      We retain data only as long as the App is installed and necessary to provide its functionality.
-      When you uninstall the App, your store&rsquo;s data is deleted in accordance with Shopify&rsquo;s mandatory
-      data-deletion (<code>shop/redact</code>) webhook, typically within 48 hours of uninstall.
+      These providers process information solely to provide their services and are bound by their own privacy
+      and security commitments. We may also disclose information where required by law or to protect the
+      rights, property, or safety of Klipcy, our users, or others.
     </p>
 
-    <h2>7. Your Rights (GDPR &amp; Customer Privacy)</h2>
+    <h2>Exercising Your Rights regarding Personal Data</h2>
     <p>
+      Merchants and their customers may request access to, correction of, or deletion of their personal data.
       Klipcy supports Shopify&rsquo;s mandatory compliance webhooks for customer privacy:
     </p>
     <ul>
@@ -153,30 +155,47 @@
       <li><strong>Customer redaction</strong> &mdash; we delete a customer&rsquo;s personal data on request.</li>
       <li><strong>Shop redaction</strong> &mdash; we delete a store&rsquo;s data after the App is uninstalled.</li>
     </ul>
-    <div class="note">
-      Merchants and their customers may request access to, correction of, or deletion of their personal data
-      by contacting us at the address below. Requests submitted through Shopify are handled automatically.
-    </div>
-
-    <h2>8. Cookies and Sessions</h2>
     <p>
-      Klipcy uses only the cookies and session tokens required to authenticate your store and keep you
-      securely signed in while using the App. We do not use tracking or advertising cookies.
+      Requests submitted through Shopify are handled automatically. You may also make a request by contacting
+      us at the email address below.
     </p>
 
-    <h2>9. Changes to This Policy</h2>
+    <h2>Security</h2>
+    <p>
+      Data is stored in a managed PostgreSQL database hosted by Supabase, and the App is hosted on Vercel.
+      All data is transmitted over encrypted connections (HTTPS/TLS) and stored on infrastructure that
+      employs encryption at rest. Access to data is restricted to what is needed to operate the App and is
+      protected by access keys. However, no method of transmission or storage is completely secure, and we
+      cannot guarantee absolute security.
+    </p>
+
+    <h2>Additional Information</h2>
+    <p>
+      <strong>Data retention.</strong> We retain data only for as long as the App is installed and the data is
+      necessary to provide its functionality. When you uninstall the App, your store&rsquo;s data is deleted in
+      accordance with Shopify&rsquo;s mandatory data-deletion (<code>shop/redact</code>) webhook, typically
+      within 48 hours of uninstall. Mobile App login codes expire after 5 minutes, and push tokens are removed
+      when you log out.
+    </p>
+
+    <h2>Updates to our Privacy Policy</h2>
     <p>
       We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated
-      &ldquo;Last updated&rdquo; date. Continued use of the App after changes constitutes acceptance of the
-      revised policy.
+      &ldquo;Last updated&rdquo; date. Your continued use of the App after changes are posted constitutes
+      acceptance of the revised policy.
     </p>
 
-    <h2>10. Contact Us</h2>
+    <h2>Legal Disclaimer</h2>
+    <p>
+      We may disclose information if we believe in good faith that doing so is necessary to comply with a law,
+      regulation, legal process, or governmental request, to enforce our terms, or to protect the rights,
+      property, or safety of Klipcy, our users, or the public.
+    </p>
+
+    <h2>Contact Us</h2>
     <p>
       If you have any questions about this Privacy Policy or how your data is handled, contact us at:
-    </p>
-    <p>
-      <strong>Email:</strong> <a href="mailto:billsora.dev@gmail.com">billsora.dev@gmail.com</a>
+      <a href="mailto:billsora.dev@gmail.com">billsora.dev@gmail.com</a>
     </p>
 
     <footer>
